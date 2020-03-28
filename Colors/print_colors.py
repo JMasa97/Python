@@ -11,8 +11,8 @@ class colors:
 def printc(color, message):
     print(color + message + colors.ENDC)
 
-printc(colors.CYAN, sys.argv[1])
-printc(colors.GREEN, sys.argv[1])
-printc(colors.YELLOW, sys.argv[1])
-printc(colors.BLUE, sys.argv[1])
-printc(colors.RED, sys.argv[1])
+printc(colors.CYAN, sys.argv[0])
+printc(colors.GREEN, sys.argv[0])
+printc(colors.YELLOW, sys.argv[0])
+printc(colors.BLUE, sys.argv[0])
+printc(colors.RED, sys.argv[0])
